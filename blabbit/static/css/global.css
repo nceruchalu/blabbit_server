@@ -1,0 +1,81 @@
+/* Westlake Flooring Services Leaderboard Styling */
+
+/*
+ * Base structure
+ */
+body {
+  /*padding-top: 20px;*/
+  padding-bottom: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:300;
+  font-size:15px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: #FF9500;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color:#FFF;
+  font-weight:400;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+
+/*
+ * Form content
+ */
+.form-signin {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin .errorlist {
+  color:red;
+  font-size:0.9em;
+}

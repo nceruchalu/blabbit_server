@@ -1,0 +1,12 @@
+*.pyc
+*~
+*.jgz
+*.gz
+*.DS_Store
+
+whoosh/
+compressed/
+ejabberd/
+
+blabbit/settings_secret.py
+
